@@ -18,7 +18,7 @@ type Compiler = typeof import("@typesol/cli/compiler");
 /** The Anchor twins in a TypeSOL checkout: test/anchor-twins since 0.25.1, bench/anchor before. */
 export const twinsOf = (root: string) => [path.join(root, "test/anchor-twins"), path.join(root, "bench/anchor")].find((d) => existsSync(d)) ?? path.join(root, "test/anchor-twins");
 export const FROM_CHECKOUT = process.env.TYPESOL_REPO !== undefined;
-/** The TypeSOL sources: examples/, test/ports/, test/programs/, test/anchor-twins/ (bench/anchor/ up to 0.25.0). */
+/** The TypeSOL sources: examples/, test/ports/ (showcase/program-examples/ after 0.38.0), test/programs/, test/anchor-twins/ (bench/anchor/ up to 0.25.0). */
 export const TYPESOL = path.resolve(process.env.TYPESOL_REPO ?? path.join(HERE, "vendor/typesol"));
 const compiler = (
   FROM_CHECKOUT ? await import(pathToFileURL(path.join(TYPESOL, "dist/compiler/index.js")).href) : await import("@typesol/cli/compiler")

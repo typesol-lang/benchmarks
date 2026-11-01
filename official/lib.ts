@@ -28,9 +28,14 @@ import { TYPESOL } from "../typesol.ts";
 
 // The ports' sources come from the TypeSOL sources (typesol.ts), or TYPESOL_PORTS; they mirror the upstream paths
 // (basics/counter.ts, …).
-export const PORTS = path.resolve(process.env.TYPESOL_PORTS ?? path.join(TYPESOL, "test/ports"));
-/** Metaplex Token Metadata, as the ports' tests load it (test/programs next to test/ports). */
-export const METADATA_SO = path.join(PORTS, "../programs/mpl_token_metadata.so");
+/** The ports: showcase/program-examples since the release after 0.38.0, test/ports before. */
+export const PORTS = path.resolve(
+  process.env.TYPESOL_PORTS ??
+    [path.join(TYPESOL, "showcase/program-examples"), path.join(TYPESOL, "test/ports")].find((d) => existsSync(d)) ??
+    path.join(TYPESOL, "test/ports"),
+);
+/** Metaplex Token Metadata, as the ports' tests load it (from test/programs). */
+export const METADATA_SO = path.join(TYPESOL, "test/programs/mpl_token_metadata.so");
 
 export const IMPLS = ["typesol", "anchor", "native", "pinocchio"] as const;
 export type Impl = (typeof IMPLS)[number];
