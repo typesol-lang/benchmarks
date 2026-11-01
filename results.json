@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-29T03:11:44.432Z",
+  "generated": "2026-11-01T11:58:48.441Z",
   "rounds": 20,
   "programs": {
     "counter": {
       "cu": {
         "initialize": {
-          "typesol": 1866,
+          "typesol": 1857,
           "anchor": 6573,
           "native": 4601,
           "pinocchio": 3186
@@ -18,7 +18,7 @@
         }
       },
       "binaryKb": {
-        "typesol": 11,
+        "typesol": 11.1,
         "anchor": 145.2,
         "native": 27.9,
         "pinocchio": 19.6
@@ -27,7 +27,7 @@
     "vault": {
       "cu": {
         "open": {
-          "typesol": 1885,
+          "typesol": 1874,
           "anchor": 6627,
           "native": 4613,
           "pinocchio": 3185
@@ -61,7 +61,7 @@
     "escrow": {
       "cu": {
         "make": {
-          "typesol": 3605,
+          "typesol": 3596,
           "anchor": 13304,
           "native": 9240,
           "pinocchio": 6179
@@ -80,7 +80,7 @@
         }
       },
       "binaryKb": {
-        "typesol": 21.3,
+        "typesol": 21.4,
         "anchor": 190.7,
         "native": 46.5,
         "pinocchio": 29.4
@@ -90,13 +90,13 @@
   "official": {
     "source": "solana-developers/program-examples@de09019 (MIT)",
     "toolchain": {
-      "typesol": "@typesol/cli@0.25.0",
-      "typesolCommit": "3fd81ceb3365e80db6792f6e995f188075bdb192",
+      "typesol": "@typesol/cli@0.38.0",
+      "typesolCommit": "a164e268aaccb279644965772b17f4d64427d80c",
       "typesolBuild": {
         "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
         "sbpf": "v0",
         "profile": false,
-        "runtimeSha256": "d9f1e705ff9242a73c3cb1cda3a48e65ec6195e83b664e6a8a0a78b016f0b81f"
+        "runtimeSha256": "725faf8ef7eda24ea7a1ef1e28b9243f8abc683570b87983401a5311aaa1d49e"
       },
       "anchorLang": "1.0.2",
       "pinocchio": "0.10.2",
@@ -105,20 +105,20 @@
       "cargoBuildSbf": "solana-cargo-build-sbf 3.1.10, platform-tools v1.52, rustc 1.89.0",
       "node": "v25.9.0"
     },
-    "generated": "2026-10-29T03:11:48.974Z",
+    "generated": "2026-11-01T11:58:52.058Z",
     "programs": {
       "account-data": {
         "source": "basics/account-data",
         "cu": {
           "create_address_info (tx)": {
-            "typesol": 2176,
+            "typesol": 2165,
             "anchor": 6212,
             "native": 4958,
             "pinocchio": 1418
           }
         },
         "binaryKb": {
-          "typesol": 11.3,
+          "typesol": 11.2,
           "anchor": 131.3,
           "native": 82.5,
           "pinocchio": 12.7
@@ -175,7 +175,7 @@
         "source": "basics/close-account",
         "cu": {
           "create_user": {
-            "typesol": 2461,
+            "typesol": 2452,
             "anchor": 8866,
             "native": 7574,
             "pinocchio": 1408
@@ -188,7 +188,7 @@
           }
         },
         "binaryKb": {
-          "typesol": 14.3,
+          "typesol": 14.4,
           "anchor": 151.9,
           "native": 87.5,
           "pinocchio": 15
@@ -222,7 +222,7 @@
           }
         },
         "binaryKb": {
-          "typesol": 8.8,
+          "typesol": 8.7,
           "anchor": 136.4,
           "native": 38.4,
           "pinocchio": 12.5
@@ -267,7 +267,7 @@
         "source": "basics/cross-program-invocation",
         "cu": {
           "initialize (tx)": {
-            "typesol": 1475,
+            "typesol": 1464,
             "anchor": 4777,
             "native": 3189,
             "pinocchio": 1370
@@ -280,7 +280,7 @@
           }
         },
         "binaryKb": {
-          "typesol": 15.9,
+          "typesol": 15.8,
           "anchor": 250.2,
           "native": 135.7,
           "pinocchio": 22.3
@@ -307,14 +307,14 @@
         "source": "basics/favorites",
         "cu": {
           "set_favorites (create)": {
-            "typesol": 6566,
+            "typesol": 6555,
             "anchor": 16980,
             "native": 16130,
             "pinocchio": 3021
           }
         },
         "binaryKb": {
-          "typesol": 23.4,
+          "typesol": 23.5,
           "anchor": 160.2,
           "native": 101.4,
           "pinocchio": 23.6
@@ -411,7 +411,7 @@
         "source": "basics/program-derived-addresses",
         "cu": {
           "create_page_visits": {
-            "typesol": 2165,
+            "typesol": 2156,
             "anchor": 7836,
             "native": 3880,
             "pinocchio": 1409
@@ -424,7 +424,7 @@
           }
         },
         "binaryKb": {
-          "typesol": 10.5,
+          "typesol": 10.6,
           "anchor": 141.9,
           "native": 71.8,
           "pinocchio": 12.9
@@ -509,7 +509,7 @@
         "source": "tokens/escrow",
         "cu": {
           "make_offer": {
-            "typesol": 19697,
+            "typesol": 19684,
             "anchor": 35726,
             "native": 33206,
             "pinocchio": 20581
@@ -625,14 +625,14 @@
         "source": "tokens/token-2022/default-account-state",
         "cu": {
           "initialize + update_default_state (tx)": {
-            "typesol": 8519,
+            "typesol": 8508,
             "anchor": 15712,
             "native": 15868,
             "pinocchio": 9292
           }
         },
         "binaryKb": {
-          "typesol": 11.3,
+          "typesol": 11.2,
           "anchor": 157.1,
           "native": 94.6,
           "pinocchio": 16.2
@@ -643,14 +643,14 @@
         "source": "tokens/token-2022/mint-close-authority",
         "cu": {
           "initialize": {
-            "typesol": 6345,
+            "typesol": 6334,
             "anchor": 14169,
             "native": 12927,
             "pinocchio": 7060
           }
         },
         "binaryKb": {
-          "typesol": 13.1,
+          "typesol": 13,
           "anchor": 194.1,
           "native": 91,
           "pinocchio": 16
@@ -661,7 +661,7 @@
         "source": "tokens/token-2022/non-transferable",
         "cu": {
           "initialize": {
-            "typesol": 6125,
+            "typesol": 6114,
             "anchor": 10046,
             "native": 12617,
             "pinocchio": 6910
@@ -678,13 +678,13 @@
     }
   },
   "toolchain": {
-    "typesol": "@typesol/cli@0.25.0",
-    "typesolCommit": "3fd81ceb3365e80db6792f6e995f188075bdb192",
+    "typesol": "@typesol/cli@0.38.0",
+    "typesolCommit": "a164e268aaccb279644965772b17f4d64427d80c",
     "typesolBuild": {
       "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
       "sbpf": "v0",
       "profile": false,
-      "runtimeSha256": "d9f1e705ff9242a73c3cb1cda3a48e65ec6195e83b664e6a8a0a78b016f0b81f"
+      "runtimeSha256": "725faf8ef7eda24ea7a1ef1e28b9243f8abc683570b87983401a5311aaa1d49e"
     },
     "anchorLang": "1.0.2",
     "pinocchio": "0.10.2",

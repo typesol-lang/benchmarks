@@ -6,6 +6,8 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- Measured with `@typesol/cli` 0.38.0 (was 0.25.0): `results.json` and `results/0.38.0.json`, with the toolchain each
+  build used. The TypeSOL program on mainnet is still the 0.25.0 build (`results/mainnet-escrow.json`).
 - Mainnet: a second escrow run on 2026-10-29, after the TypeSOL program was upgraded in place to 0.25.0 (the others
   unchanged). `results/mainnet-escrow.json` holds every run; the one before the upgrade is also in
   `results/mainnet-escrow-2026-10-27.json`.
@@ -13,7 +15,7 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 - The mainnet run's result moved to `results/mainnet-escrow.json`.
 - The Anchor twins are found at `test/anchor-twins` in TypeSOL checkouts after 0.25.0, and at `bench/anchor` before.
 
-- `results/<version>.json`: the results of every released compiler (0.24.0, 0.24.1, 0.25.0 so far), written by
+- `results/<version>.json`: the results of every released compiler measured (0.24.0, 0.24.1, 0.25.0, 0.38.0 so far), written by
   `scripts/archive.ts` and checked in CI.
 - Dependabot for the npm tooling and GitHub Actions (not `@typesol/cli` or the measured Rust crates).
 
