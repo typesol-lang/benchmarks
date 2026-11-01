@@ -6,6 +6,8 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- The program-examples ports are read from `showcase/program-examples/` of the TypeSOL sources when it exists
+  (TypeSOL moved them there after 0.38.0), else from `test/ports/`; Token Metadata from `test/programs/` either way.
 - Measured with `@typesol/cli` 0.38.0 (was 0.25.0): `results.json` and `results/0.38.0.json`, with the toolchain each
   build used. The TypeSOL program on mainnet is still the 0.25.0 build (`results/mainnet-escrow.json`).
 - Mainnet: a second escrow run on 2026-10-29, after the TypeSOL program was upgraded in place to 0.25.0 (the others
