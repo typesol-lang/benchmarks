@@ -15,7 +15,7 @@ VERSION="$(node -p 'require("@typesol/cli/package.json").version')"
 VENDOR="$HERE/vendor/typesol"
 if [ ! -d "$VENDOR/.git" ] || [ "$(git -C "$VENDOR" describe --tags --exact-match 2>/dev/null)" != "v$VERSION" ]; then
   rm -rf "$VENDOR"
-  git clone --quiet --depth 1 --branch "v$VERSION" https://github.com/typesol/typesol.git "$VENDOR"
+  git clone --quiet --depth 1 --branch "v$VERSION" https://github.com/typesol-lang/typesol.git "$VENDOR"
 fi
 echo "TypeSOL sources: v$VERSION"
 # Metaplex Token Metadata, which the token ports call: dumped from mainnet-beta (the deployed version; devnet's can be

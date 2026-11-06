@@ -1,6 +1,6 @@
 # TypeSOL benchmarks
 
-The same Solana programs written with [TypeSOL](https://github.com/typesol/typesol), Anchor, native Rust
+The same Solana programs written with [TypeSOL](https://github.com/typesol-lang/typesol), Anchor, native Rust
 (`solana-program`) and Pinocchio, compared on compute units and binary size. Every number here is reproducible: the
 TypeSOL compiler comes from npm at the version in `package.json`, its programs from the TypeSOL repository at that
 version's tag, and each result records the toolchain it was measured with (`results.json`, `toolchain`).

@@ -1,11 +1,13 @@
 # Changelog
 
-Versions follow the organization's [versioning policy](https://github.com/typesol/.github/blob/main/VERSIONING.md).
+Versions follow the organization's [versioning policy](https://github.com/typesol-lang/.github/blob/main/VERSIONING.md).
 Results change with the compiler and the toolchain; each run records both in `results.json` (`toolchain`). This file
 lists changes to the benchmarks themselves: programs, scenarios, methodology and tooling.
 
 ## Unreleased
 
+- Moved to github.com/typesol-lang (the compiler is cloned from typesol-lang/typesol); Dependabot no longer opens
+  weekly pull requests.
 - The program-examples ports are read from `showcase/program-examples/` of the TypeSOL sources when it exists
   (TypeSOL moved them there after 0.38.0), else from `test/ports/`; Token Metadata from `test/programs/` either way.
 - Measured with `@typesol/cli` 0.38.0 (was 0.25.0): `results.json` and `results/0.38.0.json`, with the toolchain each
