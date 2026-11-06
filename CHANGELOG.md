@@ -6,6 +6,8 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- Measured with `@typesol/cli` 0.39.0: `results.json` and `results/0.39.0.json`. Within a few compute units and
+  0.1 KB of 0.38.0 on every program.
 - Moved to github.com/typesol-lang (the compiler is cloned from typesol-lang/typesol); Dependabot no longer opens
   weekly pull requests.
 - The program-examples ports are read from `showcase/program-examples/` of the TypeSOL sources when it exists
