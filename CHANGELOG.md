@@ -6,6 +6,8 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- Measured with `@typesol/cli` 0.42.0: `results.json` and `results/0.42.0.json`. Every figure is the same as 0.41.0's
+  (only the compiler and runtime versions recorded changed).
 - Measured with `@typesol/cli` 0.41.0: `results.json` and `results/0.41.0.json`. Every figure is the same as 0.40.0's
   (only the compiler and runtime versions recorded changed).
 - Measured with `@typesol/cli` 0.40.0: `results.json` and `results/0.40.0.json`. Every figure is the same as 0.39.0's
