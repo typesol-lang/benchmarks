@@ -6,6 +6,8 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- Measured with `@typesol/cli` 0.43.0: `results.json` and `results/0.43.0.json`. Every figure is the same as 0.42.0's
+  except favorites (`set_favorites (create)` 6,555 → 6,536 CU, binary 23.5 → 23.4 KB).
 - Measured with `@typesol/cli` 0.42.0: `results.json` and `results/0.42.0.json`. Every figure is the same as 0.41.0's
   (only the compiler and runtime versions recorded changed).
 - Measured with `@typesol/cli` 0.41.0: `results.json` and `results/0.41.0.json`. Every figure is the same as 0.40.0's
