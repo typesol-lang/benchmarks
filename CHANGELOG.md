@@ -6,6 +6,10 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- Measured with `@typesol/cli` 0.44.0: `results.json` and `results/0.44.0.json`. counter, vault and escrow are as
+  with 0.43.0. Seven of the official examples move by at most 22 CU either way (helper parameters are passed by
+  pointer now): account-data 2,165 → 2,153, create-account 4,056 → 4,074, favorites 6,536 → 6,514, transfer-tokens
+  8,372 → 8,390, create-token 41,096 → 41,110, and three more by 1 to 3 CU.
 - Measured with `@typesol/cli` 0.43.0: `results.json` and `results/0.43.0.json`. Every figure is the same as 0.42.0's
   except favorites (`set_favorites (create)` 6,555 → 6,536 CU, binary 23.5 → 23.4 KB).
 - Measured with `@typesol/cli` 0.42.0: `results.json` and `results/0.42.0.json`. Every figure is the same as 0.41.0's
