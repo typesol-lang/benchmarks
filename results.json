@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T08:57:17.398Z",
+  "generated": "2026-11-11T01:33:26.725Z",
   "rounds": 20,
   "programs": {
     "counter": {
@@ -90,13 +90,13 @@
   "official": {
     "source": "solana-developers/program-examples@de09019 (MIT)",
     "toolchain": {
-      "typesol": "@typesol/cli@0.42.0",
-      "typesolCommit": "cb256c30058e3f59e8aedcd7daf869ce992268cc",
+      "typesol": "@typesol/cli@0.43.0",
+      "typesolCommit": "543786e850ad426425956e497971f88103f6c987",
       "typesolBuild": {
         "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
         "sbpf": "v0",
         "profile": false,
-        "runtimeSha256": "fa055d4b8ad898d19529eae71296d72875cf69053628b41b22829ea54207c9da"
+        "runtimeSha256": "91b21d8876bd8e8f34825a9070fea830e46512afc52246de72a5afa2d15767d3"
       },
       "anchorLang": "1.0.2",
       "pinocchio": "0.10.2",
@@ -105,7 +105,7 @@
       "cargoBuildSbf": "solana-cargo-build-sbf 3.1.10, platform-tools v1.52, rustc 1.89.0",
       "node": "v25.9.0"
     },
-    "generated": "2026-11-09T08:57:21.427Z",
+    "generated": "2026-11-11T01:33:30.822Z",
     "programs": {
       "account-data": {
         "source": "basics/account-data",
@@ -307,14 +307,14 @@
         "source": "basics/favorites",
         "cu": {
           "set_favorites (create)": {
-            "typesol": 6555,
+            "typesol": 6536,
             "anchor": 16980,
             "native": 16130,
             "pinocchio": 3021
           }
         },
         "binaryKb": {
-          "typesol": 23.5,
+          "typesol": 23.4,
           "anchor": 160.2,
           "native": 101.4,
           "pinocchio": 23.6
@@ -678,13 +678,13 @@
     }
   },
   "toolchain": {
-    "typesol": "@typesol/cli@0.42.0",
-    "typesolCommit": "cb256c30058e3f59e8aedcd7daf869ce992268cc",
+    "typesol": "@typesol/cli@0.43.0",
+    "typesolCommit": "543786e850ad426425956e497971f88103f6c987",
     "typesolBuild": {
       "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
       "sbpf": "v0",
       "profile": false,
-      "runtimeSha256": "fa055d4b8ad898d19529eae71296d72875cf69053628b41b22829ea54207c9da"
+      "runtimeSha256": "91b21d8876bd8e8f34825a9070fea830e46512afc52246de72a5afa2d15767d3"
     },
     "anchorLang": "1.0.2",
     "pinocchio": "0.10.2",
