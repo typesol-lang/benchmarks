@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T04:50:04.398Z",
+  "generated": "2026-11-14T08:17:07.405Z",
   "rounds": 20,
   "programs": {
     "counter": {
@@ -90,13 +90,13 @@
   "official": {
     "source": "solana-developers/program-examples@de09019 (MIT)",
     "toolchain": {
-      "typesol": "@typesol/cli@0.47.0",
-      "typesolCommit": "c1ac1afc52eb13927563e9680ed5a785301db7b1",
+      "typesol": "@typesol/cli@0.48.0",
+      "typesolCommit": "fb32edcf224ab3a7bfd415b632f2352fbda361d0",
       "typesolBuild": {
         "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
         "sbpf": "v0",
         "profile": false,
-        "runtimeSha256": "a668bf71b7ac6858162a268b76c89be30a8d122ee48cb96eb780d781ae521e47"
+        "runtimeSha256": "e6da30fe83fec30f96a0dcab1bcf99cf4bc266adcaa23f044dd636734c9d2b08"
       },
       "anchorLang": "1.0.2",
       "pinocchio": "0.10.2",
@@ -105,7 +105,7 @@
       "cargoBuildSbf": "solana-cargo-build-sbf 3.1.10, platform-tools v1.52, rustc 1.89.0",
       "node": "v25.9.0"
     },
-    "generated": "2026-11-13T04:50:09.153Z",
+    "generated": "2026-11-14T08:17:12.246Z",
     "programs": {
       "account-data": {
         "source": "basics/account-data",
@@ -678,13 +678,13 @@
     }
   },
   "toolchain": {
-    "typesol": "@typesol/cli@0.47.0",
-    "typesolCommit": "c1ac1afc52eb13927563e9680ed5a785301db7b1",
+    "typesol": "@typesol/cli@0.48.0",
+    "typesolCommit": "fb32edcf224ab3a7bfd415b632f2352fbda361d0",
     "typesolBuild": {
       "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
       "sbpf": "v0",
       "profile": false,
-      "runtimeSha256": "a668bf71b7ac6858162a268b76c89be30a8d122ee48cb96eb780d781ae521e47"
+      "runtimeSha256": "e6da30fe83fec30f96a0dcab1bcf99cf4bc266adcaa23f044dd636734c9d2b08"
     },
     "anchorLang": "1.0.2",
     "pinocchio": "0.10.2",
