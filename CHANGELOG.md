@@ -6,6 +6,9 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- Measured with `@typesol/cli` 0.48.0: `results.json` and `results/0.48.0.json`. Every figure is the same as 0.47.0's
+  (0.48.0 builds every program measured here to the same binary; the compiler version and the runtime header's hash
+  recorded changed).
 - Measured with `@typesol/cli` 0.47.0: `results.json` and `results/0.47.0.json`. Every figure is the same as 0.46.0's
   (0.47.0 builds every program to the same binary; only the compiler version recorded changed).
 - Measured with `@typesol/cli` 0.46.0: `results.json` and `results/0.46.0.json`. Every figure is the same as 0.45.0's
