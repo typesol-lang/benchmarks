@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T07:49:21.135Z",
+  "generated": "2026-11-26T10:41:11.458Z",
   "rounds": 20,
   "programs": {
     "counter": {
@@ -67,13 +67,13 @@
           "pinocchio": 6179
         },
         "take": {
-          "typesol": 4019,
+          "typesol": 3945,
           "anchor": 14365,
           "native": 8500,
           "pinocchio": 4051
         },
         "refund": {
-          "typesol": 2696,
+          "typesol": 2622,
           "anchor": 8449,
           "native": 5695,
           "pinocchio": 2769
@@ -90,13 +90,13 @@
   "official": {
     "source": "solana-developers/program-examples@de09019 (MIT)",
     "toolchain": {
-      "typesol": "@typesol/cli@0.49.0",
-      "typesolCommit": "c8821b2d4d5127b32c4c0ce5c2c4f63f4ab3f878",
+      "typesol": "@typesol/cli@0.50.0",
+      "typesolCommit": "4299c2d687dd1a1701aa3b9f74fd6fb5b40805a3",
       "typesolBuild": {
         "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
         "sbpf": "v0",
         "profile": false,
-        "runtimeSha256": "912a19ae4413e6a8d332406bbc3b419c04cd6a38586f1f055b3cefc5256ecb28"
+        "runtimeSha256": "d75db72662eefc64f835c8618a2d701f28ab1b09c7445e88ad215eda0baf24c0"
       },
       "anchorLang": "1.0.2",
       "pinocchio": "0.10.2",
@@ -105,7 +105,7 @@
       "cargoBuildSbf": "solana-cargo-build-sbf 3.1.10, platform-tools v1.52, rustc 1.89.0",
       "node": "v25.9.0"
     },
-    "generated": "2026-11-16T07:49:25.961Z",
+    "generated": "2026-11-26T10:41:22.534Z",
     "programs": {
       "account-data": {
         "source": "basics/account-data",
@@ -515,20 +515,20 @@
             "pinocchio": 20581
           },
           "take_offer": {
-            "typesol": 7054,
+            "typesol": 7000,
             "anchor": 29235,
             "native": 24995,
             "pinocchio": 21606
           },
           "refund_offer": {
-            "typesol": 4271,
+            "typesol": 4217,
             "anchor": 15326,
             "native": 12477,
             "pinocchio": 8137
           }
         },
         "binaryKb": {
-          "typesol": 32.1,
+          "typesol": 32,
           "anchor": 244.5,
           "native": 120.4,
           "pinocchio": 25.1
@@ -678,13 +678,13 @@
     }
   },
   "toolchain": {
-    "typesol": "@typesol/cli@0.49.0",
-    "typesolCommit": "c8821b2d4d5127b32c4c0ce5c2c4f63f4ab3f878",
+    "typesol": "@typesol/cli@0.50.0",
+    "typesolCommit": "4299c2d687dd1a1701aa3b9f74fd6fb5b40805a3",
     "typesolBuild": {
       "clang": "clang version 20.1.7-rust-dev (https://github.com/anza-xyz/llvm-project.git 78496716176191b2dfb728e5e38501812e7467db)",
       "sbpf": "v0",
       "profile": false,
-      "runtimeSha256": "912a19ae4413e6a8d332406bbc3b419c04cd6a38586f1f055b3cefc5256ecb28"
+      "runtimeSha256": "d75db72662eefc64f835c8618a2d701f28ab1b09c7445e88ad215eda0baf24c0"
     },
     "anchorLang": "1.0.2",
     "pinocchio": "0.10.2",

@@ -6,6 +6,10 @@ lists changes to the benchmarks themselves: programs, scenarios, methodology and
 
 ## Unreleased
 
+- Measured with `@typesol/cli` 0.50.0: `results.json` and `results/0.50.0.json`. Only the escrows moved, both down
+  (whole-value copies now use the memory syscalls): `escrow` take 4,019 → 3,945 CU and refund 2,696 → 2,622 CU (binary
+  still 21.5 KB); the official escrow `take_offer` 7,054 → 7,000 CU, `refund_offer` 4,271 → 4,217 CU, binary
+  32.1 → 32.0 KB. Every other figure is the same as 0.49.0's.
 - Measured with `@typesol/cli` 0.49.0: `results.json` and `results/0.49.0.json`. Every figure is the same as 0.48.0's
   (0.49.0 builds every program measured here to the same binary; the compiler version and the runtime header's hash
   recorded changed).
